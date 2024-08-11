@@ -80,6 +80,18 @@ nav ul li a {
   border-radius: 8px;
   cursor: pointer;
 }
+.login-btns {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  padding: 5px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.mob-log {
+  display: none;
+}
 
 .hero {
   position: relative;
@@ -409,6 +421,14 @@ nav ul li a {
     width: 100%;
   }
 
+  .mob-log {
+    display: block;
+  }
+
+  .login-btn {
+    display: none;
+  }
+
   .video {
     margin-top: -400px;
     height: 500px;
@@ -423,6 +443,7 @@ nav ul li a {
   .featuresItems {
     padding-top: 10px;
   }
+
   header .container {
     flex-direction: column;
   }

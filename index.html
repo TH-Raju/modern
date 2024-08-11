@@ -31,6 +31,9 @@
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#foot">Waitlist</a></li>
+            <div class="header-buttons mob-log">
+              <button class="login-btns">Log in</button>
+            </div>
           </ul>
         </nav>
         <div class="header-buttons">
@@ -38,6 +41,7 @@
         </div>
       </div>
     </header>
+
     <main>
       <!--Group purchasing Section  -->
       <section class="hero">
@@ -154,4 +158,12 @@
       </section>
     </main>
   </body>
+  <script>
+    const hamburger = document.getElementById("hamburger-menu");
+    const navLinks = document.querySelector("nav ul");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
 </html>
