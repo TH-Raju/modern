@@ -372,6 +372,12 @@ nav ul li a {
   .featuresItems {
     padding-top: 100px;
   }
+  .footer {
+    padding-top: 0px;
+  }
+  .footer p {
+    padding-top: 650px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -459,6 +465,12 @@ nav ul li a {
   .notify button {
     width: 100%;
   }
+  .footer {
+    padding-top: 0px;
+  }
+  .footer p {
+    padding-top: 650px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -497,12 +509,18 @@ nav ul li a {
     font-weight: 500;
     color: #333;
   }
+  .footer p {
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 580px) {
   .video {
     margin-top: -400px;
     height: 400px;
+  }
+  .footer p {
+    padding-bottom: 50px;
   }
 }
 
